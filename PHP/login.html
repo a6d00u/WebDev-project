@@ -20,7 +20,18 @@
                 <input type="text" placeholder="Name">
                 <input type="email" placeholder="Email">
                 <input type="password" placeholder="Password">
-                <button>Sign Up</button>
+                <div class="radio">
+                    <input type="radio" id="student" name="Type" value="Student">
+                    <label for="student">Student</label>
+                    <input type="radio" id="teacher-radio" name="Type" value="Teacher">
+                    <label for="teacher-radio">Teacher</label>
+                </div>
+                <select name="Grade" id="grade" aria-placeholder="Select your Grade">
+                    <option value="maA">maitre assistant A</option>
+                    <option value="maB">maitre assistant B</option>
+                    <option value="Pro">Proffesor</option>
+                </select>
+                <button type="submit">Sign Up</button>
             </form>
         </div>
         <div class="form-container sign-in">

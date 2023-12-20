@@ -15,7 +15,6 @@ loginBtn.addEventListener('click', () => {
 });
 
 // add admin eventListner for teacher radio button
-
 radioBtn.addEventListener('change' , function() {
     select.style.display = this.checked ? 'block' : 'none' ;
 });

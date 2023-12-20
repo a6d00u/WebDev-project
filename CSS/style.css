@@ -81,6 +81,11 @@ body{
     font-size: 18px;
     margin: 10px;
 }
+
+.form-container #grade {
+    display: none;
+}
+
 .form-container .radio label {
     margin: 0 8px;
 }

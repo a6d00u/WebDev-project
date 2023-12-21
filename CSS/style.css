@@ -237,3 +237,68 @@ body{
 .container.active .toggle-right{
     transform: translateX(200%);
 }
+
+/* chat page style */
+.chat-container {
+    background-color: #E2E2E2;
+}
+.chat-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 20px 20px 25px;
+    background-color: #4F98CA;
+    color: white;
+    font-size: 25px;
+    border-radius: 0 0 20px 20px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.chat-header #return {
+    color: #eee;
+    margin-right: 60px;
+    margin-left: 20px;
+}
+
+.chat-header #icon {
+    margin: 0 20px 0 0;
+}
+
+.type-box input {
+    background-color: #fff;
+    width: 1000px;
+    height: 60px;
+    padding: 30px 20px;
+    outline: none;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.type-box button {
+    background-color: #fff;
+    float: right;
+    border-radius: 30px;
+    color: #50D890;
+    outline: none;
+    cursor: pointer;
+    padding: 0 15px;
+    margin-left: 25px;
+}
+
+.type-box form {
+    display: flex;
+    justify-content: center;
+}
+
+.type-box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 7px;
+    /*width: 100%;*/
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    margin-bottom: 1px;
+}

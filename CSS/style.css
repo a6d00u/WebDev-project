@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Judson&display=swap');
 
 *{
     margin: 0;
@@ -238,6 +239,29 @@ body{
     transform: translateX(200%);
 }
 
+#HomeBtn {
+    color: #50D890;
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+#LogoBtn {
+    position: absolute;
+    top: 0;
+    margin-top: 20px;
+}
+.logoCS {
+    color: #50D890;
+    margin-left: -9px;
+}
+.Logo {
+    color: #333;
+    
+}
 /* chat page style */
 .chat-container {
     background-color: #E2E2E2;

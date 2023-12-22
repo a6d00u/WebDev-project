@@ -259,9 +259,13 @@ body{
     margin-left: -9px;
 }
 .Logo {
-    color: #333;
-    
+    color: #333; 
 }
+.Logo:hover{
+    color: #4F98CA;
+}
+
+
 /* chat page style */
 .chat-container {
     background-color: #E2E2E2;
